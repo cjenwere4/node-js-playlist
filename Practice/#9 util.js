@@ -23,7 +23,7 @@ People.forEach(function(Person){
         console.log(Person.name + 'said this ' + msg );
     });
 });
-
+// emitting the objects here
 james.emit('speak','This is james');
 saif.emit('speak','OH great nice to meet you Mer. ');
 sampath.emit('speak','Thats cool');
